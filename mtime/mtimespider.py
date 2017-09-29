@@ -3,11 +3,8 @@
 import json
 import re
 from multiprocessing.pool import ThreadPool
-from random import choice
 from urllib import urlencode
-
 import time
-
 import pymongo
 import sys
 from bs4 import BeautifulSoup
